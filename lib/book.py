@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 class Book:
     def __init__(self, title, page_count):
         self.title = title
@@ -18,6 +16,8 @@ class Book:
 
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")
+
+
 class Coffee:
     def __init__(self, size, price):
         self.size = size
@@ -37,18 +37,3 @@ class Coffee:
     def tip(self):
         print("This coffee is great, here's a tip!")
         self.price += 1
-# Example usage
-book = Book("Python Basics", 200)
-book.turn_page()
-
-coffee = Coffee("Large", 5)
-coffee.tip()
-print(coffee.price) 
-
-
-
-    
-        
-    
-    
-        
